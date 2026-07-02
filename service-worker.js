@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'jiksor-up-playstore-v3';
+﻿const CACHE_NAME = 'jiksor-up-playstore-v4';
 const FILES = ['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html','./parent-guide.html','./game-easy/','./game-easy/index.html','./game-upgrade/','./game-upgrade/index.html'];
 self.addEventListener('install', event => {
   self.skipWaiting();
