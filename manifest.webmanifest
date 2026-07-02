@@ -1,7 +1,7 @@
 {
   "name": "Jiksor Up! Wild Animals",
   "short_name": "Jiksor Up",
-  "description": "A colorful 100 level wild animal jigsaw puzzle game for kids ages 6 to 8.",
+  "description": "Colorful wild animal jigsaw puzzles for children and families.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
