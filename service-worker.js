@@ -1,5 +1,5 @@
-﻿const CACHE_NAME = 'jiksor-up-playstore-v4';
-const FILES = ['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html','./parent-guide.html','./game-easy/','./game-easy/index.html','./game-upgrade/','./game-upgrade/index.html'];
+﻿const CACHE_NAME = 'jiksor-up-family-v5';
+const FILES = ['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html','./parent-guide.html','./game-easy/','./game-easy/index.html','./game-upgrade/','./game-upgrade/index.html','./game-family/','./game-family/index.html','./assets/family/photo-1.jpg','./assets/family/photo-2.jpg','./assets/family/photo-3.jpg','./assets/family/photo-4.jpg','./assets/family/photo-5.jpg'];
 self.addEventListener('install', event => {
   self.skipWaiting();
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(FILES).catch(() => undefined)));
@@ -15,3 +15,4 @@ self.addEventListener('fetch', event => {
     return response;
   }).catch(() => caches.match(event.request)));
 });
+
