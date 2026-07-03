@@ -1,0 +1,19 @@
+{
+  "name": "Jiksor Up! Wild Animals",
+  "short_name": "Jiksor Up",
+  "description": "Colorful wild animal jigsaw puzzles for children and families.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fffdf7",
+  "theme_color": "#1fa7b8",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
